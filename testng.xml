@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Assignment Test Automation Suite">
+    <test name="Smoke Test Suite">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.poly.selenium.tests.AuthSeleniumTest"/>
+            <class name="com.poly.selenium.tests.ProductSeleniumTest"/>
+        </classes>
+    </test>
+</suite>
